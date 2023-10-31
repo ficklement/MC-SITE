@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin: 0;
+  background-color: #d9dcd6;
+  font-family: Verdana;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 550;
+  background-color: lightseagreen;
+  color: rgb(12, 12, 51);
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newnav {
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    color: rgb(65, 182, 211);
+    background-color: rgb(13, 10, 34);
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-around;
+    font-size: 33px;
+}
+
+.newnav h1 {
+    flex-direction:column;
+    align-items: left;
+    font-size: 55px;
+    background-color: rgb(65, 182, 211);
+    color: rgb(13, 10, 34);
+}
+
+.mcbackground {
+    width: 100%;
+    background-image: url(../images/shutterstock_1006405.jpg);
+    background-position: center;
+    height: 200px;
+}
+
+#about-me,
+#work,
+#contact {
+    display: flex;
+}
+
+section h2 {
+  font-family: Verdana;
+  font-weight: 400;
+  min-width: 25%;
+  text-align: end;
+  padding: 10px;
+  padding-right: 20px;
+  border-right: rgb(13, 10, 34);
+}
+
+section p {
+  padding-left: 20px;
+}
+
+.mainsections {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 10px;
+}
+
+main a:link,
+a:visited {
+    color: rgb(65, 182, 211);
+}
+
+nav ul a:link,
+a:visited {
+    color: rgb(65, 182, 211);
+}
+
+.featuresection {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  margin: 20px;
+  position: relative;
+}
+
+.primarytitlebox {
+  position: absolute;
+  bottom: 380px;
+  left: 15px;
+  height: 100px;
+  width: auto;
+}
+
+.longwork img {
+  width: 100%;
+  border: 2px solid rgb(12, 12, 51);
+  filter:hue-rotate(30deg) blur(2px);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.titlebox {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: rgb(12, 12, 51);
+  color: rgb(65, 182, 211);
+  height: 50%;
+  width: auto;
+
+}
+
+.pro_name {
+  font-size: 28px;
+  font-weight: 550;
+  line-height: 4px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  color: rgb(65, 182, 211);
+  background-color: rgb(12, 12, 51);
+}
+
+.pro_subhead {
+  font-size: 16px;
+  color: rgb(65, 182, 211);
+  background-color: rgb(12, 12, 51);
+}
+
+.banner img {
+  border: 2px solid rgb(12, 12, 51);
+  width: 100%;
+  height: 150px;
+  filter:hue-rotate(30deg) blur(2px);
+}
+
+img:hover {
+  filter: none;
+}
+
+.shortwork {
+  width: 48%;
+}
+
+.mainsections h2 {
+  text-align: right;
+  font-weight: bolder;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(65, 182, 211);
+  border-right: 2px solid rgb(13, 10, 34);
+  margin: 10px;
+}
+
+.mainsections h3 {
+  color: rgb(65, 182, 211);
+  background-color: rgb(12, 12, 51);
+}
+
+.mainsections p {
+  padding-left: 10px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  color: rgb(65, 182, 211);
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+}
+
+.contact-links a {
+  color: rgb(65, 182, 211);
+  margin-right: 20px;
+}
